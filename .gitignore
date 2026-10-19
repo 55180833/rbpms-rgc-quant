@@ -215,6 +215,17 @@ tempCodeRunnerFile.py
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-
 # Streamlit
 .streamlit/secrets.toml
+# RBPMS pipeline: never upload data or results
+*.tif
+*.tiff
+*.czi
+*.npy
+*.csv
+*.zip
+*.png
+!images/*.png
+RBPMS_classified_ROIs/
+RBPMS_positive_anchor_calibration.json
+RBPMS_fiji_executable.txt
